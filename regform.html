@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register from</title>
+    <link rel="stylesheet" href="regstyle.css">
+</head>
+    
+    <body>
+        <div class="login-box">
+        <img src="book-img/avatar.png" class="avatar">
+        <h1>Register Here</h1>
+            
+    <form method="post" action="Rconnect.php">
+        <label>UserName :</label>
+       <input id="name" name="username" placeholder="username" type="text">
+       <label>Password :</label>
+       <input id="password" name="password" placeholder="**********" type="password"><br><br>
+            <input name="submit" type="submit" value=" Submit ">
+
+       <span><?php echo $error; ?></span>
+    </form>
+        
+        </div>
+    </body>
+</html>

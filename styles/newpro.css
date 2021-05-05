@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+* {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 1;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+.checked{
+    color:gold;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.fa {
+    font-size: 14px;
+}
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+
+
+
+
+        
+        .product{
+            border: 1px solid #eaeaec;
+            margin: -1px 19px 3px -1px;
+            padding: 10px;
+            text-align: center;
+            background-color: #efefef;
+        }
+        table, th, tr{
+            text-align: center;
+        }
+        .title2{
+            text-align: center;
+            color: #66afe9;
+            background-color: #efefef;
+            padding: 2%;
+        }
+        h2{
+            text-align: center;
+            color: #66afe9;
+            background-color: #efefef;
+            padding: 2%;
+        }
+        table th{
+            background-color: #efefef;
+        }

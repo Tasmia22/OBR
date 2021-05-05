@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register from</title>
+    <link rel="stylesheet" href="paystyle.css">
+</head>
+    
+    <body>
+        <div class="row">
+  <div class="col-75">
+    <div class="container">
+            
+    <form method="post" action="Rconnect_pay.php">
+        <div class="row">
+          <div class="col-50">
+              <h3>Info</h3>
+              
+        <label>Name :</label>
+       <input id="name" name="Name" placeholder="username" type="text">
+       <label>Email :</label>
+       <input id="password" name="Email" placeholder="Email" type="text">
+             <label>VCC :</label>
+       <input id="vcc" name="vcc" placeholder="352" type="text"> 
+              </div>
+          <div class="col-50">  
+              <h3>payment</h3>
+              <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+                <label>Credit :</label>
+       <input id="credit" name="Credit" placeholder="1111-2222-3333-4444" type="text">
+           <label>Quantity :</label>
+       <input id="Quantity" name="Quantity" placeholder="1/2/3" type="text">
+            </div>
+        
+            <input name="submit" type="submit" value=" Done " class="btn">
+
+       <span><?php echo $error; ?></span>
+        </div>
+            </form>
+      </div>
+            </div>
+        </div>
+    </body>
+</html>
